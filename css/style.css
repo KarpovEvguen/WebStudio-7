@@ -1,0 +1,225 @@
+:root { 
+    --web-studio-black:#2F303A; 
+    --web-studio-blue:#2196F3;  
+    --web-studio-white:#fff; 
+    --title:#212121; 
+    --text:#757575; 
+    --footer:rgba(255, 255, 255, 0.60); 
+    --black:#000000;
+    --team-bg:#F5F4FA;
+
+
+} 
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body{ 
+    font-family: "Roboto", serif; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: normal; 
+    color: var(--title); 
+} 
+ul {
+    list-style-type: none;
+}
+a { 
+    text-decoration: none; 
+    color: inherit;
+} 
+ul,p,h1,h2,h3,button{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+.header-link_number{
+    display: flex;
+    gap: 50px;
+}
+.logo{ 
+    font-size: 26px; 
+font-family: "Raleway", sans-serif; 
+font-weight: 700; 
+color: var(--web-studio-blue); 
+letter-spacing: 0.78px; 
+} 
+.black-logo{
+    color: var(--black);
+}
+ 
+.header-link{ 
+    color: var(--text); 
+    font-weight: 500; 
+} 
+.header-link:hover{ 
+    color: var(--web-studio-blue); 
+} 
+.header-link_number{ 
+    color: var(--text); 
+    font-size: 14px; 
+font-weight: 500; 
+letter-spacing: 0.28px; 
+} 
+
+.hero{ 
+    background-color: #2F303A; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+ 
+} 
+.hero_title{ 
+    font-weight: 900; 
+    text-transform: uppercase; 
+    text-align: center; 
+    line-height: 13.6px; 
+    letter-spacing: 2.64px; 
+    color: var(--web-studio-white); 
+} 
+.hero-button{ 
+    border: none;
+    display: block;
+    color: var(--web-studio-white); 
+    font-size: 16px; 
+    font-weight: 700; 
+    letter-spacing: 0.96px; 
+    width: 216px; 
+    height: 50px; 
+    background: #2196F3; 
+    margin: 30px auto 0;
+} 
+ .features{
+    padding: 94px 0;
+ }
+ .features-list{
+    display: flex;
+    gap: 30px;
+ }
+.features-list-title{ 
+    font-size: 14px;
+    color: var(--title); 
+    font-weight: 700; 
+text-transform: uppercase; 
+letter-spacing: 0.42px; 
+} 
+ 
+.features-list-description{ 
+    color: var(--text); 
+    font-size: 14px; 
+font-weight: 400; 
+line-height: 24px; 
+letter-spacing: 0.42px; 
+margin: 10px 0 0;
+} 
+.work{
+    padding-bottom: 94px;
+}
+.work_list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.work_item{
+    width: 370px;
+}
+.work_title{ 
+    display: flex;
+    color: var(--title); 
+    font-size: 36px; 
+font-weight: 700; 
+letter-spacing: 1.08px; 
+margin-bottom: 50px;
+justify-content: center;
+} 
+.team{
+    background-color: var(--team-bg);
+    padding: 94px 0;
+}
+.team_list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.team_title{
+    display: flex;
+    color: var(--title); 
+    font-size: 36px; 
+font-weight: 700; 
+letter-spacing: 1.08px; 
+margin-bottom: 50px;
+justify-content: center;
+}
+.team-list_item{ 
+    background-color: var(--web-studio-white);
+    color: var(--title); 
+    font-size: 16px;
+font-weight: 500;
+letter-spacing: 0.48px;
+padding-bottom: 30px;
+width: 270px;
+} 
+.team-list_title{ 
+    color: var(--title); 
+font-size: 16px; 
+font-weight: 500; 
+letter-spacing: 0.48px; 
+margin: 30px 0 10px;
+} 
+.team-list_description{ 
+    color: var(--text); 
+font-size: 16px; 
+font-weight: 400; 
+letter-spacing: 0.48px; 
+} 
+
+.footer {
+    padding:60px 0;
+    background-color: #212121; 
+}
+ 
+ 
+.footer-logo{
+    display: block;
+        font-size: 26px; 
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    color: var(--web-studio-blue); 
+    letter-spacing: 0.78px; 
+    margin-bottom: 20px;
+    }
+.footer-white{
+    color: var(--web-studio-white);
+}
+
+.footer-link{ 
+    color: var(--web-studio-white); 
+    font-size: 14px; 
+font-weight: 400; 
+line-height: 24px; 
+letter-spacing: 0.42px; 
+} 
+.footer-info{ 
+    display: flex;
+    color: var(--footer); 
+    font-size: 14px; 
+font-weight: 400; 
+line-height: 24px; 
+letter-spacing: 0.42px; 
+flex-direction: column;
+margin: 9px 0;
+}
