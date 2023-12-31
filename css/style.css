@@ -193,12 +193,10 @@ font-weight: 400;
 letter-spacing: 0.48px; 
 } 
 
-.footer {
-    padding:60px 0;
-    background-color: #212121; 
-}
- 
- 
+.footer{ 
+    padding: 60px 0;
+    background-color: var(--web-studio-black); 
+} 
 .footer-logo{
     display: block;
         font-size: 26px; 
@@ -211,7 +209,6 @@ letter-spacing: 0.48px;
 .footer-white{
     color: var(--web-studio-white);
 }
-
 .footer-link{ 
     color: var(--web-studio-white); 
     font-size: 14px; 
@@ -219,13 +216,18 @@ font-weight: 400;
 line-height: 24px; 
 letter-spacing: 0.42px; 
 } 
+.address{
+    display: flex;
+    font-style: normal;
+    flex-direction: column;
+    gap: 9px;
+}
 .footer-info{ 
     display: flex;
-    color: var(--footer); 
+    color: var(--text); 
     font-size: 14px; 
 font-weight: 400; 
 line-height: 24px; 
 letter-spacing: 0.42px; 
 flex-direction: column;
-margin: 9px 0;
 }
